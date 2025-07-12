@@ -1,4 +1,4 @@
-#Volunteering website (demo; for graduation thesis)
+#Volunteering website (demo; for graduation thesis)#
 A website about youth volunteering, created for a graduation thesis.
 
 ##Features
