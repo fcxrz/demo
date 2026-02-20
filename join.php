@@ -222,7 +222,7 @@ require_once 'header.php'
                             </div>
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" name="volunteerCheckbox" id="volunteerAgree" required>
-                                <label class="form-check-label" for="volunteerAgree">Я согласен с <a href="$">политикой конфиденциальности</a></label>
+                                <label class="form-check-label" for="volunteerAgree">Я согласен с <a href="agreed.php">политикой конфиденциальности</a></label>
                                 <div class="invalid-feedback">Необходимо согласие c политикой конфиденциальности.</div>
                             </div>
                             <div class="d-grid">
@@ -275,7 +275,7 @@ require_once 'header.php'
 
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" name="organizationCheckbox" id="organizationAgree" required>
-                                <label class="form-check-label" for="organizationAgree">Я согласен с <a href="agreed.html">политикой конфиденциальности</a></label>
+                                <label class="form-check-label" for="organizationAgree">Я согласен с <a href="agreed.php">политикой конфиденциальности</a></label>
                                 <div class="invalid-feedback">Необходимо согласие c политикой конфиденциальности.</div>
                             </div>
                             <div class="d-grid">
