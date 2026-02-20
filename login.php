@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +70,7 @@
             </div>
             <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary btn-lg">Войти</button>
-                <a href="join.html" class="btn btn-outline-secondary">Зарегистрироваться</a>
+                <a href="join.php" class="btn btn-outline-secondary">Зарегистрироваться</a>
             </div>
         </form>
     </div>

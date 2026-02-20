@@ -148,7 +148,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="collapse navbar-collapse" id="navContent">
                 <ul class="navbar-nav me-auto mb-3 mb-lg-0 w-100 d-flex justify-content-center gap-3">
                     <li class="nav-item"><a href="index.php" class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">Главная</a></li>
-                    <li class="nav-item"><a href="about.php" class="nav-link <?php echo ($current_page == 'about.html') ? 'active' : ''; ?>">О нас</a></li>
+                    <li class="nav-item"><a href="about.php" class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">О нас</a></li>
                     <li class="nav-item"><a href="projects.php" class="nav-link <?php echo ($current_page == 'projects.php') ? 'active' : ''; ?>">Проекты</a></li>
 
                     <?php if ($is_logged_in): ?>
@@ -159,7 +159,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         <?php endif; ?>
                         <li class="nav-item"><a href="logout.php" class="nav-link">Выйти</a></li>
                     <?php else: ?>
-                        <li class="nav-item"><a href="join.php" class="nav-link <?php echo ($current_page == 'join.html') ? 'active' : ''; ?>">Стать волонтером</a></li>
+                        <li class="nav-item"><a href="join.php" class="nav-link <?php echo ($current_page == 'join.php') ? 'active' : ''; ?>">Стать волонтером</a></li>
                         <li class="nav-item"><a href="login.php" class="nav-link <?php echo ($current_page == 'login.php') ? 'active' : ''; ?>">Войти</a></li>
                     <?php endif; ?>
                 </ul>

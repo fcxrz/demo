@@ -204,8 +204,8 @@ require_once 'header.php'
                             </div>
                             <div class="mb-3">
                                 <label for="volunteerPassword" class="form-label">Пароль</label>
-                                <input type="password" class="form-control" id="volunteerPassword" name="password" required>
-                                <div class="invalid-feedback">Пожалуйста, введите пароль.</div>
+                                <input type="password" class="form-control" minlength="8" id="volunteerPassword" name="password" required>
+                                <div class="invalid-feedback">Пожалуйста, введите пароль более 8 символов</div>
                             </div>
                             <div class="mb-3">
                                 <label for="volunteerDirection" class="form-label">Выберите направление</label>

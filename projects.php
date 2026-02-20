@@ -216,7 +216,7 @@ require_once 'header.php'
             <div class="d-flex filter-group gap-2 justify-content-center">
                 <button class="btn filter-btn active" data-filter="all">Все проекты</button>
                 <?php foreach ($categories as $key => $value): ?>
-                    <?php if ($key !== 'all'): // 'all' уже есть ?>
+                    <?php if ($key !== 'all'): ?>
                         <button class="btn filter-btn" data-filter="<?php echo htmlspecialchars($key); ?>">
                             <?php echo htmlspecialchars($value); ?>
                         </button>
